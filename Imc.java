@@ -1,7 +1,7 @@
 
 /**
  * @author Marcos Severino Alves
- * Calculo Ìndice da massa corporal java
+ * Calculo √≠ndice da massa corporal java
  *
  */
 
@@ -12,7 +12,7 @@ public class Imc {
 
 	public static void main(String[] args) {
 		//<control><shift<f> (alinhamento)
-		//vari·veis
+		//vari√°veis
 		double altura, peso, resultado1, resultado2, abaixodopeso , pesonormal, sobrepeso,obesidadegrau1, obesidadegrau2, obesidadegrau3;
         abaixodopeso   = 18.5;
         pesonormal     = 24.9;
@@ -27,7 +27,7 @@ public class Imc {
 		DecimalFormat formatador = new DecimalFormat ("0.0");
 		System.out.println(" Marcos Severino Alves \r\n" + 
 				"\r\n" + 
-				" Calculo Ìndice da massa corporal \r\n" + 
+				" Calculo √≠ndice da massa corporal \r\n" + 
 				"\r\n" + 
 				"18,5	     = Abaixo do peso\r\n" + 
 				"18,5 e 24,9  = Peso normal\r\n" + 
@@ -37,14 +37,14 @@ public class Imc {
 				"40	     = Obesidade grau 3"); 
 
        //Entrada
-        System.out.print("DÌgite a Altura:");
+        System.out.print("D√≠gite a Altura:");
         altura = leitor.nextDouble();
-        System.out.print("DÌgite o peso:");
+        System.out.print("D√≠gite o peso:");
         peso = leitor.nextDouble();
         //processamento
         resultado1 = (altura*altura);
         resultado2 = (peso / resultado1);
-        //SaÌda
+        //Sa√≠da
         
         System.out.println("Resultado: " + formatador.format (resultado2));
 
