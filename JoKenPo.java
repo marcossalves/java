@@ -13,48 +13,50 @@ public class JoKenPo {
 		System.out.println("1. PEDRA");
 		System.out.println("2. PAPEL");
 		System.out.println("3. TESOURA");
-		System.out.println("Digite a opção desejada: ");
+		System.out.println("Digite a opÃ§Ã£o desejada: ");
 		jogador = mao.nextInt();
 		switch (jogador) {
-		case 1:
-			System.out.println("Jogador escolheu PEDRA");
-			break;
+			case 1:
+				System.out.println("Jogador escolheu PEDRA");
+				break;
 
-		case 2:
-			System.out.println("Jogador escolheu PAPEL");
-			break;
+			case 2:
+				System.out.println("Jogador escolheu PAPEL");
+				break;
 
-		case 3:
-			System.out.println("Jogador escolheu TESOURA");
-			break;
-		default:
-			System.out.println("Opção inválida");
-			break;
+			case 3:
+				System.out.println("Jogador escolheu TESOURA");
+				break;
+			default:
+				System.out.println("OpÃ§Ã£oo invÃ¡lida");
+				break;
 		}
 
-		// lógica do computador
+		// lï¿½gica do computador
 		int computador = (int) (Math.random() * 3 + 1);
 		switch (computador) {
-		case 1:
-			System.out.println("Computador escolheu PEDRA");
-			break;
+			case 1:
+				System.out.println("Computador escolheu PEDRA");
+				break;
 
-		case 2:
-			System.out.println("Computador escolheu PAPEL");
-			break;
+			case 2:
+				System.out.println("Computador escolheu PAPEL");
+				break;
 
-		case 3:
-			System.out.println("Computador escolheu TESOURA");
-			break;
+			case 3:
+				System.out.println("Computador escolheu TESOURA");
+				break;
 
 		}
-		// lógica para determinar o vencedor
+		// lï¿½gica para determinar o vencedor
 
 		if (jogador != computador) {
 			if ((jogador == 1 && computador == 3) || (jogador == 2 && computador == 1)
-					|| (jogador == 3 && computador == 2)) {System.out.println("JOGADOR VENCEU");
+					|| (jogador == 3 && computador == 2)) {
+				System.out.println("JOGADOR VENCEU");
 
-			} else { System.out.println("COMPUTADOR VENCEU");
+			} else {
+				System.out.println("COMPUTADOR VENCEU");
 
 			}
 		} else {

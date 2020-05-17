@@ -6,8 +6,7 @@
 package cursoJava;
 
 /**
- * @author Marcos Severino Alves
- * Hello World
+ * @author Marcos Severino Alves Hello World
  *
  */
 public class Hello {
