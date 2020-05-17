@@ -1,10 +1,10 @@
 
 /**
  * @author Marcos Severino Alves
- * Calculo índice da massa corporal java
+ * Calculo ï¿½ndice da massa corporal java
  *
  */
-
+  
 package exercicios;
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -12,26 +12,26 @@ public class IndiceMassaCorporal {
 
 	public static void main(String[] args) {
 		//<control><shift<f> (alinhamento)
-		//variáveis
+		//variï¿½veis
 		double altura, peso, resultado1, resultado2;
 
 		//objeto leitor (usado para capturar dados)
 		Scanner leitor = new java.util.Scanner(System.in);
         //objeto formatador (usado para formatar o resultado)
 		DecimalFormat formatador = new DecimalFormat ("0.0");
-		System.out.println(" Calculo índice masssa corporal"); 
+		System.out.println(" Calculo ï¿½ndice masssa corporal"); 
 
        //Entrada
 		
-        System.out.print("Dígite a Altura:");
+        System.out.print("Dï¿½gite a Altura:");
         altura = leitor.nextDouble();
-        System.out.print("Dígite o peso:");
+        System.out.print("Dï¿½gite o peso:");
         peso = leitor.nextDouble();
         //processamento
         resultado1 = (altura*altura);
         resultado2 = (peso / resultado1);
         
-        //Saída
+        //Saï¿½da
         
         System.out.println("Resultado: " + formatador.format (resultado2));
 

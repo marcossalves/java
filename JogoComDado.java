@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class JogoComDado {
 
 	public static void main(String[] args) {
-		// Variáveis
+		// Variï¿½veis
 
 		int jogador, computador;
 		
@@ -26,7 +26,7 @@ public class JogoComDado {
 		leitor.close();
 		
 		
-		// Resultados aleatórios Dado1 e Dado2
+		// Resultados aleatï¿½rios Dado1 e Dado2
 		jogador = (int) (Math.random() * 6) + 1;
 		System.out.println(" Resultado  " + n + " = " + jogador);
 
